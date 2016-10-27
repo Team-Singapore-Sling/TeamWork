@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3fd23ebad10e42cdae5a9ce4daddb8f1" Name="Diagram1">
+        <EntityTypeShape EntityType="MoviesDatabaseOfTeamSingaporeSlingModel.Employee" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDatabaseOfTeamSingaporeSlingModel.Genre" Width="1.5" PointX="5.625" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDatabaseOfTeamSingaporeSlingModel.Movy" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDatabaseOfTeamSingaporeSlingModel.sysdiagram" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="MoviesDatabaseOfTeamSingaporeSlingModel.Movies_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDatabaseOfTeamSingaporeSlingModel.Movies_Genres" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

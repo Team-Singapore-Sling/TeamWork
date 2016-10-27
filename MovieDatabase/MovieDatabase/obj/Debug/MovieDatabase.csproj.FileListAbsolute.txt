@@ -1,1 +1,0 @@
-D:\telerik\Databases - 2016\MovieDatabase\MovieDatabase\bin\Debug\MovieDatabase.exe.config
