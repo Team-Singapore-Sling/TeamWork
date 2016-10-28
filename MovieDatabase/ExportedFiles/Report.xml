@@ -1,203 +1,240 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Table>
-  <Movie>
-    <Name>Angels &amp; Demons</Name>
-    <Diration>2 h 18 min</Diration>
-    <Description>Harvard symbologist Robert Langdon works to solve a murder and prevent a terrorist act against the Vatican.</Description>
-    <Rating>6,7</Rating>
-    <Year>15.5.2009 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Ron</FirstName>
-      <LastName>Howard</LastName>
-      <Age>62</Age>
-      <Salary>3000000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-      <FirstName>Ayelet</FirstName>
-      <LastName>Zurer</LastName>
-      <Age>47</Age>
-      <Salary>20000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Assassin's Creed</Name>
-    <Diration>2 h 22 min</Diration>
-    <Description>When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society. </Description>
-    <Rating>6,3</Rating>
-    <Year>21.12.2016 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Justin</FirstName>
-      <LastName>Kurzel</LastName>
-      <Age>42</Age>
-      <Salary>5000000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Michael</FirstName>
-      <LastName>Fassbender</LastName>
-      <Age>39</Age>
-      <Salary>150000,0000</Salary>
-      <FirstName>Marion</FirstName>
-      <LastName>Cotillard</LastName>
-      <Age>41</Age>
-      <Salary>100000,0000</Salary>
-      <FirstName>Michael</FirstName>
-      <LastName>Williams</LastName>
-      <Age>50</Age>
-      <Salary>35000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Captain Phillips</Name>
-    <Diration>2 h 14 min</Diration>
-    <Description>The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years. </Description>
-    <Rating>7,9</Rating>
-    <Year>11.10.2013 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Paul</FirstName>
-      <LastName>Greengrass</LastName>
-      <Age>61</Age>
-      <Salary>300000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Cast Away</Name>
-    <Diration>2 h 23 min</Diration>
-    <Description>
-A FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island. </Description>
-    <Rating>7,7</Rating>
-    <Year>22.12.2000 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Robert</FirstName>
-      <LastName>Zemeckis</LastName>
-      <Age>64</Age>
-      <Salary>3000000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-      <FirstName>Lari</FirstName>
-      <LastName>White</LastName>
-      <Age>51</Age>
-      <Salary>14000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Inferno</Name>
-    <Diration>2 h 1 min</Diration>
-    <Description>When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot. </Description>
-    <Rating>6,5</Rating>
-    <Year>28.10.2016 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Ron</FirstName>
-      <LastName>Howard</LastName>
-      <Age>62</Age>
-      <Salary>3000000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-      <FirstName>Felicity</FirstName>
-      <LastName>Jones</LastName>
-      <Age>32</Age>
-      <Salary>180000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Into the Inferno</Name>
-    <Diration>1 h 44 min</Diration>
-    <Description>An exploration of active volcanoes around world. </Description>
-    <Rating>8</Rating>
-    <Year>28.10.2016 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Wernen</FirstName>
-      <LastName>Herzog</LastName>
-      <Age>76</Age>
-      <Salary>150000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Clive</FirstName>
-      <LastName>Oppenheimer</LastName>
-      <Age />
-      <Salary>15000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>Salt and Fire</Name>
-    <Diration>1 h 38 min</Diration>
-    <Description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </Description>
-    <Rating>4,9</Rating>
-    <Year>17.11.2016 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Wernen</FirstName>
-      <LastName>Herzog</LastName>
-      <Age>76</Age>
-      <Salary>150000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Michael</FirstName>
-      <LastName>Shannon</LastName>
-      <Age>42</Age>
-      <Salary>26000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>The Da Vinci Code</Name>
-    <Diration>2 h 29 min</Diration>
-    <Description>A murder inside the Louvre and clues in Da Vinci paintings lead to the discovery of a religious mystery protected by a secret society for two thousand years -- which could shake the foundations of Christianity. </Description>
-    <Rating>6,6</Rating>
-    <Year>19.5.2006 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Ron</FirstName>
-      <LastName>Howard</LastName>
-      <Age>62</Age>
-      <Salary>3000000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-      <FirstName>Audrey</FirstName>
-      <LastName>Tautou</LastName>
-      <Age>40</Age>
-      <Salary>430000,0000</Salary>
-    </Actors>
-  </Movie>
-  <Movie>
-    <Name>The Terminal</Name>
-    <Diration>2 h 8 min </Diration>
-    <Description>An eastern immigrant finds himself stranded in JFK airport, and must take up temporary residence there. </Description>
-    <Rating>7,3</Rating>
-    <Year>18.6.2004 г. 0:00:00</Year>
-    <Directors>
-      <FirstName>Steven</FirstName>
-      <LastName>Spielberg</LastName>
-      <Age>69</Age>
-      <Salary>7500000,0000</Salary>
-    </Directors>
-    <Actors>
-      <FirstName>Tom</FirstName>
-      <LastName>Hanks</LastName>
-      <Age>60</Age>
-      <Salary>500000,0000</Salary>
-      <FirstName>Catherine</FirstName>
-      <LastName>Jones</LastName>
-      <Age>47</Age>
-      <Salary>100000,0000</Salary>
-    </Actors>
-  </Movie>
-</Table>
+<movies>
+  <movie>
+    <name>Angels &amp; Demons</name>
+    <duration>2 h 18 min</duration>
+    <description>Harvard symbologist Robert Langdon works to solve a murder and prevent a terrorist act against the Vatican.</description>
+    <rating>6,7</rating>
+    <year>15.5.2009 г. 0:00:00</year>
+    <genres>
+      <name>Mystery</name>
+      <name>Thriller</name>
+    </genres>
+    <directors>
+      <firstName>Ron</firstName>
+      <lastName>Howard</lastName>
+      <age>62</age>
+      <salary>3000000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Ayelet</firstName>
+      <lastName>Zurer</lastName>
+      <age>47</age>
+      <salary>20000,0000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Assassin's Creed</name>
+    <duration>2 h 22 min</duration>
+    <description>When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society. </description>
+    <rating>6,3</rating>
+    <year>21.12.2016 г. 0:00:00</year>
+    <genres>
+      <name>Action</name>
+      <name>Adventure</name>
+      <name>Fantasy</name>
+    </genres>
+    <directors>
+      <firstName>Justin</firstName>
+      <lastName>Kurzel</lastName>
+      <age>42</age>
+      <salary>5000000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Marion</firstName>
+      <lastName>Cotillard</lastName>
+      <age>41</age>
+      <salary>100000,0000</salary>
+      <firstName>Michael</firstName>
+      <lastName>Fassbender</lastName>
+      <age>39</age>
+      <salary>150000,0000</salary>
+      <firstName>Michael</firstName>
+      <lastName>Williams</lastName>
+      <age>50</age>
+      <salary>35000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Captain Phillips</name>
+    <duration>2 h 14 min</duration>
+    <description>The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years. </description>
+    <rating>7,9</rating>
+    <year>11.10.2013 г. 0:00:00</year>
+    <genres>
+      <name>Mystery</name>
+      <name>Thriller</name>
+    </genres>
+    <directors>
+      <firstName>Paul</firstName>
+      <lastName>Greengrass</lastName>
+      <age>61</age>
+      <salary>300000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Cast Away</name>
+    <duration>2 h 23 min</duration>
+    <description>
+A FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island. </description>
+    <rating>7,7</rating>
+    <year>22.12.2000 г. 0:00:00</year>
+    <genres>
+      <name>Adventure</name>
+      <name>Drama</name>
+      <name>Romance</name>
+    </genres>
+    <directors>
+      <firstName>Robert</firstName>
+      <lastName>Zemeckis</lastName>
+      <age>64</age>
+      <salary>3000000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Lari</firstName>
+      <lastName>White</lastName>
+      <age>51</age>
+      <salary>14000,0000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Inferno</name>
+    <duration>2 h 1 min</duration>
+    <description>When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot. </description>
+    <rating>6,5</rating>
+    <year>28.10.2016 г. 0:00:00</year>
+    <genres>
+      <name>Action</name>
+      <name>Adventure</name>
+      <name>Crime</name>
+    </genres>
+    <directors>
+      <firstName>Ron</firstName>
+      <lastName>Howard</lastName>
+      <age>62</age>
+      <salary>3000000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Felicity</firstName>
+      <lastName>Jones</lastName>
+      <age>32</age>
+      <salary>180000,0000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Into the Inferno</name>
+    <duration>1 h 44 min</duration>
+    <description>An exploration of active volcanoes around world. </description>
+    <rating>8</rating>
+    <year>28.10.2016 г. 0:00:00</year>
+    <genres>
+      <name>Documentary</name>
+    </genres>
+    <directors>
+      <firstName>Wernen</firstName>
+      <lastName>Herzog</lastName>
+      <age>76</age>
+      <salary>150000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Clive</firstName>
+      <lastName>Oppenheimer</lastName>
+      <age />
+      <salary>15000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Salt and Fire</name>
+    <duration>1 h 38 min</duration>
+    <description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </description>
+    <rating>4,9</rating>
+    <year>17.11.2016 г. 0:00:00</year>
+    <genres>
+      <name>Thriller</name>
+    </genres>
+    <directors>
+      <firstName>Wernen</firstName>
+      <lastName>Herzog</lastName>
+      <age>76</age>
+      <salary>150000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Michael</firstName>
+      <lastName>Shannon</lastName>
+      <age>42</age>
+      <salary>26000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Da Vinci Code</name>
+    <duration>2 h 29 min</duration>
+    <description>A murder inside the Louvre and clues in Da Vinci paintings lead to the discovery of a religious mystery protected by a secret society for two thousand years -- which could shake the foundations of Christianity. </description>
+    <rating>6,6</rating>
+    <year>19.5.2006 г. 0:00:00</year>
+    <genres>
+      <name>Drama</name>
+      <name>Thriller</name>
+    </genres>
+    <directors>
+      <firstName>Ron</firstName>
+      <lastName>Howard</lastName>
+      <age>62</age>
+      <salary>3000000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Audrey</firstName>
+      <lastName>Tautou</lastName>
+      <age>40</age>
+      <salary>430000,0000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Terminal</name>
+    <duration>2 h 8 min </duration>
+    <description>An eastern immigrant finds himself stranded in JFK airport, and must take up temporary residence there. </description>
+    <rating>7,3</rating>
+    <year>18.6.2004 г. 0:00:00</year>
+    <genres>
+      <name>Comedy</name>
+      <name>Drama</name>
+    </genres>
+    <directors>
+      <firstName>Steven</firstName>
+      <lastName>Spielberg</lastName>
+      <age>69</age>
+      <salary>7500000,0000</salary>
+    </directors>
+    <actors>
+      <firstName>Catherine</firstName>
+      <lastName>Jones</lastName>
+      <age>47</age>
+      <salary>100000,0000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hanks</lastName>
+      <age>60</age>
+      <salary>500000,0000</salary>
+    </actors>
+  </movie>
+</movies>

@@ -17,7 +17,7 @@ namespace MovieDatabase.ExportingDataToFilesClasses
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
             writer.Indentation = 2;
-            writer.WriteStartElement("Table");
+            writer.WriteStartElement("movies");
             var database = new Database();
             var db = database.GetInstance();
             var moviesData = db.Movies
@@ -38,59 +38,76 @@ namespace MovieDatabase.ExportingDataToFilesClasses
         {
             var actors = movie.Employees
                                .Where(a => a.IsDirector == false)
+                               .OrderBy(a => a.FirstName)
                                .ToList();
+
             var directors = movie.Employees
                                  .Where(d => d.IsDirector == true)
+                                 .OrderBy(d => d.FirstName)
                                  .ToList();
-            writer.WriteStartElement("Movie");
-            writer.WriteStartElement("Name");
+
+            var genres = movie.Genres
+                              .OrderBy(g => g.Name)
+                              .ToList();
+            writer.WriteStartElement("movie");
+            writer.WriteStartElement("name");
             writer.WriteString(movie.Name);
             writer.WriteEndElement();
-            writer.WriteStartElement("Diration");
+            writer.WriteStartElement("duration");
             writer.WriteString(movie.Duration);
             writer.WriteEndElement();
-            writer.WriteStartElement("Description");
+            writer.WriteStartElement("description");
             writer.WriteString(movie.Description);
             writer.WriteEndElement();
-            writer.WriteStartElement("Rating");
+            writer.WriteStartElement("rating");
             writer.WriteString(movie.Rating.ToString());
             writer.WriteEndElement();
-            writer.WriteStartElement("Year");
+            writer.WriteStartElement("year");
             writer.WriteString(movie.Year.ToString());
             writer.WriteEndElement();
-            writer.WriteStartElement("Directors");
+            writer.WriteStartElement("genres");
+
+            foreach (var genre in genres)
+            {
+                writer.WriteStartElement("name");
+                writer.WriteString(genre.Name);
+                writer.WriteEndElement();
+            }
+
+            writer.WriteEndElement();
+            writer.WriteStartElement("directors");
 
             foreach (var director in directors)
             {
-                writer.WriteStartElement("FirstName");
+                writer.WriteStartElement("firstName");
                 writer.WriteString(director.FirstName);
                 writer.WriteEndElement();
-                writer.WriteStartElement("LastName");
+                writer.WriteStartElement("lastName");
                 writer.WriteString(director.LastName);
                 writer.WriteEndElement();
-                writer.WriteStartElement("Age");
+                writer.WriteStartElement("age");
                 writer.WriteString(director.Age.ToString());
                 writer.WriteEndElement();
-                writer.WriteStartElement("Salary");
+                writer.WriteStartElement("salary");
                 writer.WriteString(director.Salary.ToString());
                 writer.WriteEndElement();
             }
 
             writer.WriteEndElement();
-            writer.WriteStartElement("Actors");
+            writer.WriteStartElement("actors");
 
             foreach (var actor in actors)
             {
-                writer.WriteStartElement("FirstName");
+                writer.WriteStartElement("firstName");
                 writer.WriteString(actor.FirstName);
                 writer.WriteEndElement();
-                writer.WriteStartElement("LastName");
+                writer.WriteStartElement("lastName");
                 writer.WriteString(actor.LastName);
                 writer.WriteEndElement();
-                writer.WriteStartElement("Age");
+                writer.WriteStartElement("age");
                 writer.WriteString(actor.Age.ToString());
                 writer.WriteEndElement();
-                writer.WriteStartElement("Salary");
+                writer.WriteStartElement("salary");
                 writer.WriteString(actor.Salary.ToString());
                 writer.WriteEndElement();
             }
