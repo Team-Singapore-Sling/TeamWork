@@ -38,7 +38,9 @@ namespace MovieDatabase
             //Generating Xml file report
             var generateXMLFile = new XMLGenerator();
             generateXMLFile.XmlGenerate();
-
+            //Generating Json file reports
+            var generateJsonReports = new JSONGenerator();
+            generateJsonReports.JsonGenerate();
         }
     }
 }

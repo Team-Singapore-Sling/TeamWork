@@ -1,0 +1,35 @@
+{
+  "id": 8,
+  "name": "Cast Away",
+  "rating": 7.7,
+  "year": "2000-12-22T00:00:00",
+  "description": "\r\nA FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island. ",
+  "duration": "2 h 23 min",
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Romance"
+  ],
+  "directors": [
+    {
+      "firstname": "Robert",
+      "lastname": "Zemeckis",
+      "age": 64,
+      "salary": 3000000.0000
+    }
+  ],
+  "actors": [
+    {
+      "firstname": "Tom",
+      "lastname": "Hanks",
+      "age": 60,
+      "salary": 500000.0000
+    },
+    {
+      "firstname": "Lari",
+      "lastname": "White",
+      "age": 51,
+      "salary": 14000.0000
+    }
+  ]
+}
