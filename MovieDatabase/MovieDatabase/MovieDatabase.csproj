@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\Database.cs" />
+    <Compile Include="DatabaseClassInstance\Database.cs" />
     <Compile Include="EntityData\Employee.cs">
       <DependentUpon>MoviesDatabaseOfTeamSingaporeSlingEntities.tt</DependentUpon>
     </Compile>
@@ -79,6 +79,7 @@
     <Compile Include="EntityData\Movy.cs">
       <DependentUpon>MoviesDatabaseOfTeamSingaporeSlingEntities.tt</DependentUpon>
     </Compile>
+    <Compile Include="ExportingDataToFilesClasses\XMLGenerator.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EntityData\sysdiagram.cs">

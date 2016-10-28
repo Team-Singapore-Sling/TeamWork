@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieDatabase.Database
+namespace MovieDatabase.DatabaseClassinstance
 {
     public class Database
     {
