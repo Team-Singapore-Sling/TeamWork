@@ -1,4 +1,5 @@
-﻿using MovieDatabase.EntityData;
+﻿using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.EntityData;
 using MovieDatabase.ExportingDataToFilesClasses;
 using System;
 using System.Collections.Generic;
@@ -36,11 +37,15 @@ namespace MovieDatabase
             //    }
             //}
             //Generating Xml file report
-            var generateXMLFile = new XMLGenerator();
-            generateXMLFile.XmlGenerate();
+           // var generateXMLFile = new XMLGenerator();
+           // generateXMLFile.XmlGenerate();
             //Generating Json file reports
-            var generateJsonReports = new JSONGenerator();
-            generateJsonReports.JsonGenerate();
+           // var generateJsonReports = new JSONGenerator();
+           // generateJsonReports.JsonGenerate();
+            //Generating Pdf fle reports
+            var db = new Database();
+            var generatePdfReports = new PDFGenerator();
+            generatePdfReports.GeneratePdfReports(db.GetInstance());
         }
     }
 }
