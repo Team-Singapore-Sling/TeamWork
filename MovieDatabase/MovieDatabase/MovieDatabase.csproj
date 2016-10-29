@@ -90,6 +90,11 @@
     <Compile Include="ExportingDataToFilesClasses\JSONGenerator.cs" />
     <Compile Include="ExportingDataToFilesClasses\PDFGenerator.cs" />
     <Compile Include="ExportingDataToFilesClasses\XMLGenerator.cs" />
+    <Compile Include="ImportingData\XMLModels\Actor.cs" />
+    <Compile Include="ImportingData\XMLModels\Cinema.cs" />
+    <Compile Include="ImportingData\XMLModels\Director.cs" />
+    <Compile Include="ImportingData\XMLModels\Movie.cs" />
+    <Compile Include="ImportingData\XMLImporter.cs" />
     <Compile Include="Interfaces\IEmployee.cs" />
     <Compile Include="Interfaces\IGenre.cs" />
     <Compile Include="Interfaces\IReportMovie.cs" />

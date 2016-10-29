@@ -1,11 +1,6 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
-using MovieDatabase.EntityData;
 using MovieDatabase.ExportingDataToFilesClasses;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MovieDatabase.ImportingData;
 
 namespace MovieDatabase
 {
@@ -46,6 +41,8 @@ namespace MovieDatabase
             var db = new Database();
             var generatePdfReports = new PDFGenerator();
             generatePdfReports.GeneratePdfReports(db.GetInstance());
+
+            XMLImporter.ImportXML();
         }
     }
 }
