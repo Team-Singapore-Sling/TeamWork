@@ -31,18 +31,19 @@ namespace MovieDatabase.Start
             //        Console.WriteLine(movie);
             //    }
             //}
+            var db = new Database();
+
             //Generating Xml file report
              var generateXMLFile = new XMLGenerator();
-             generateXMLFile.XmlGenerate();
+             generateXMLFile.Generate(db);
             //Generating Json file reports
              var generateJsonReports = new JSONGenerator();
-             generateJsonReports.JsonGenerate();
+             generateJsonReports.Generate(db);
             //Generating Pdf fle reports
-            var db = new Database();
             var generatePdfReports = new PDFGenerator();
-            generatePdfReports.GeneratePdfReports(db.GetInstance());
+            generatePdfReports.Generate(db);
 
-            XMLImporter.ImportXML();
+            //XMLImporter.ImportXML();
         }
     }
 }

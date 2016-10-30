@@ -66,6 +66,7 @@
     <Compile Include="ExportingDataToFilesClasses\PDFGenerator.cs" />
     <Compile Include="ExportingDataToFilesClasses\XMLGenerator.cs" />
     <Compile Include="Interfaces\IEmployee.cs" />
+    <Compile Include="Interfaces\IGenerator.cs" />
     <Compile Include="Interfaces\IGenre.cs" />
     <Compile Include="Interfaces\IReportMovie.cs" />
     <Compile Include="M.cs" />
