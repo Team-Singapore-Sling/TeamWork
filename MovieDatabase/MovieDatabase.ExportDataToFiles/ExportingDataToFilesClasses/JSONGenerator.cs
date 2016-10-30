@@ -1,4 +1,5 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.ExportDataToFiles.Interfaces;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,11 @@ using System.Threading.Tasks;
 
 namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
-    public class JSONGenerator
+    public class JSONGenerator : IGenerator
     {
-        public void JsonGenerate()
+        public void Generate(Database dbContext)
         {
-            var database = new Database();
-            var db = database.GetInstance();
+            var db = dbContext.GetInstance();
             var movies = db.Movies
                              .OrderBy(m => m.Name)
                              .Select(m => new
