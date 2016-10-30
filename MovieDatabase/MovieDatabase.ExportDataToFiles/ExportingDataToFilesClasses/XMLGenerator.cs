@@ -1,5 +1,6 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
 using MovieDatabase.EntityData;
+using MovieDatabase.ExportDataToFiles.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +10,16 @@ using System.Xml;
 
 namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
-    public class XMLGenerator
+    public class XMLGenerator : IGenerator
     {
-        public void XmlGenerate()
+        public void Generate(Database dbContext)
         {
             XmlTextWriter writer = new XmlTextWriter("../../../ExportedFiles/Report.xml", System.Text.Encoding.UTF8);
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
             writer.Indentation = 2;
             writer.WriteStartElement("movies");
-            var database = new Database();
-            var db = database.GetInstance();
+            var db = dbContext.GetInstance();
             var moviesData = db.Movies
                                .OrderBy(m => m.Name)
                                .ToList();
