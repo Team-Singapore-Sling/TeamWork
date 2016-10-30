@@ -8,12 +8,14 @@ using System.Threading.Tasks;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using MovieDatabase.ExportDataToFiles.Models;
+using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.ExportDataToFiles.Interfaces;
 
 namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
-    public class PDFGenerator
+    public class PDFGenerator : IGenerator
     {
-        public void GeneratePdfReports(MoviesDatabaseOfTeamSingaporeSlingEntities dbContext)
+        public void Generate(Database dbContext)
         {
             FileStream fs = new FileStream("../../../ExportedFiles/MoviesReport.pdf", FileMode.Create, FileAccess.Write, FileShare.None);
 
@@ -21,7 +23,7 @@ namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 
             PdfWriter writer = PdfWriter.GetInstance(document, fs);
 
-            this.FillDocument(document, dbContext);
+            this.FillDocument(document, dbContext.GetInstance());
         }
 
         private Rectangle CreatePdfRectangle()
