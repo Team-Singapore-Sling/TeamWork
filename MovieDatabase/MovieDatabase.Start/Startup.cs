@@ -1,6 +1,8 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles.ImportingData;
+using MovieDatabase.ImportDataFromFiles;
+using System;
 
 namespace MovieDatabase.Start
 {
@@ -31,6 +33,20 @@ namespace MovieDatabase.Start
             //        Console.WriteLine(movie);
             //    }
             //}
+
+            //read from zip file & populate the database with more data + create updates pdf, xml & json files
+            var reader = new ReadExcelFromZip();
+            var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
+
+
+            foreach (var movie in movies)
+            {
+                Console.WriteLine(movie.Name);
+            }
+
+            var import = new MoviesImportToSql();
+            import.Import(movies);
+
             var db = new Database();
 
             //Generating Xml file report
@@ -44,6 +60,7 @@ namespace MovieDatabase.Start
             generatePdfReports.Generate(db);
 
             //XMLImporter.ImportXML();
+
         }
     }
 }
