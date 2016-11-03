@@ -1,9 +1,9 @@
-﻿using MovieDatabase.DatabaseClassinstance;
+﻿using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.ExportDataToFiles.Interfaces
 {
     public interface IGenerator
     {
-        void Generate(Database dbContext);
+        void Generate(IDatabase dbContext);
     }
 }

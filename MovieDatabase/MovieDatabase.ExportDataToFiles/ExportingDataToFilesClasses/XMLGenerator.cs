@@ -1,4 +1,5 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.EntityData;
 using MovieDatabase.ExportDataToFiles.Interfaces;
 using System;
@@ -12,7 +13,7 @@ namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
     public class XMLGenerator : IGenerator
     {
-        public void Generate(Database dbContext)
+        public void Generate(IDatabase dbContext)
         {
             XmlTextWriter writer = new XmlTextWriter("../../../ExportedFiles/Report.xml", System.Text.Encoding.UTF8);
             writer.WriteStartDocument(true);

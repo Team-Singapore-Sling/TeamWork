@@ -10,12 +10,13 @@ using iTextSharp.text.pdf;
 using MovieDatabase.ExportDataToFiles.Models;
 using MovieDatabase.DatabaseClassinstance;
 using MovieDatabase.ExportDataToFiles.Interfaces;
+using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
     public class PDFGenerator : IGenerator
     {
-        public void Generate(Database dbContext)
+        public void Generate(IDatabase dbContext)
         {
             FileStream fs = new FileStream("../../../ExportedFiles/MoviesReport.pdf", FileMode.Create, FileAccess.Write, FileShare.None);
 

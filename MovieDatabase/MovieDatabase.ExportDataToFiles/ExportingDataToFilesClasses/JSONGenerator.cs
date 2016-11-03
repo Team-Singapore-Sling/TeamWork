@@ -1,4 +1,5 @@
 ﻿using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.Interfaces;
 using Newtonsoft.Json;
 using System;
@@ -12,7 +13,7 @@ namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {
     public class JSONGenerator : IGenerator
     {
-        public void Generate(Database dbContext)
+        public void Generate(IDatabase dbContext)
         {
             var db = dbContext.GetInstance();
             var movies = db.Movies

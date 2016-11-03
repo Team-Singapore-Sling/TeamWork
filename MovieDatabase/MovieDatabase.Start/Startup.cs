@@ -3,6 +3,7 @@ using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles.ImportingData;
 using MovieDatabase.ImportDataFromFiles;
 using System;
+using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.Start
 {
@@ -35,19 +36,19 @@ namespace MovieDatabase.Start
             //}
 
             //read from zip file & populate the database with more data + create updates pdf, xml & json files
-            var reader = new ReadExcelFromZip();
-            var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
+            //var reader = new ReadExcelFromZip();
+            //var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
 
 
-            foreach (var movie in movies)
-            {
-                Console.WriteLine(movie.Name);
-            }
+            //foreach (var movie in movies)
+            //{
+            //    Console.WriteLine(movie.Name);
+            //}
 
-            var import = new MoviesImportToSql();
-            import.Import(movies);
+            //var import = new MoviesImportToSql();
+            //import.Import(movies);
 
-            var db = new Database();
+            IDatabase db = new Database();
 
             //Generating Xml file report
              var generateXMLFile = new XMLGenerator();
