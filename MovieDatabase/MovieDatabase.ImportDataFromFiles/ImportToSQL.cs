@@ -1,5 +1,4 @@
 ﻿using MovieDatabase.DatabaseClassInstance;
-using MovieDatabase.EntityData;
 using System.Collections.Generic;
 
 namespace MovieDatabase.ImportDataFromFiles

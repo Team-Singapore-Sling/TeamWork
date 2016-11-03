@@ -1,11 +1,10 @@
 ﻿using MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels;
-using System;
 using System.IO;
 using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData
 {
-   public class XMLImporter
+    public class XMLImporter
     {
        public static void ImportXML()
         {

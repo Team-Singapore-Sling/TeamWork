@@ -1,16 +1,13 @@
-﻿using MovieDatabase.EntityData;
-using System;
+﻿using iTextSharp.text;
+using iTextSharp.text.pdf;
+using MovieDatabase.DatabaseClassInstance;
+using MovieDatabase.EntityData;
+using MovieDatabase.ExportDataToFiles.Interfaces;
+using MovieDatabase.ExportDataToFiles.Models;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using MovieDatabase.ExportDataToFiles.Models;
-using MovieDatabase.DatabaseClassInstance;
-using MovieDatabase.ExportDataToFiles.Interfaces;
-using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
 {

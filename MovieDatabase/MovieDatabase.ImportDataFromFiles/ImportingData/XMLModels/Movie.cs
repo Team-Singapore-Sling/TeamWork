@@ -1,6 +1,4 @@
-﻿using MovieDatabase.EntityData;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels

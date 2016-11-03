@@ -1,9 +1,7 @@
 ﻿using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
-using MovieDatabase.ImportDataFromFiles.ImportingData;
 using MovieDatabase.ImportDataFromFiles;
 using System;
-using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.Start
 {
