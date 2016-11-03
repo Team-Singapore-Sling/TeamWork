@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1E8F6B87-1547-4C1D-8159-56389633406F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MovieDatabase.ImportDataFromFiles</RootNamespace>
     <AssemblyName>MovieDatabase.ImportDataFromFiles</AssemblyName>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -62,7 +65,6 @@
     <Compile Include="ImportingData\XMLModels\Director.cs" />
     <Compile Include="ImportingData\XMLModels\Movie.cs" />
     <Compile Include="ImportToSQL.cs" />
-    <Compile Include="M.cs" />
     <Compile Include="MoviesImportToSql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ImportingData\ReadExcelFromZip.cs" />

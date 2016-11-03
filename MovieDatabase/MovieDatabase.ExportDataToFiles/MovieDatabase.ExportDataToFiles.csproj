@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BD677257-3BA5-4E7E-88A5-4D9530CDDFBB}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MovieDatabase.ExportDataToFiles</RootNamespace>
     <AssemblyName>MovieDatabase.ExportDataToFiles</AssemblyName>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -69,7 +72,6 @@
     <Compile Include="Interfaces\IGenerator.cs" />
     <Compile Include="Interfaces\IGenre.cs" />
     <Compile Include="Interfaces\IReportMovie.cs" />
-    <Compile Include="M.cs" />
     <Compile Include="Models\ReportMovie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

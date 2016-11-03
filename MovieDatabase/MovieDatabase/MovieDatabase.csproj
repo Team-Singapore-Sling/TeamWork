@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{81CC920E-FFBC-40A6-BD91-C69305900D64}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MovieDatabase</RootNamespace>
     <AssemblyName>MovieDatabase</AssemblyName>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -75,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseClassInstance\Database.cs" />
+    <Compile Include="DatabaseClassInstance\IDatabase.cs" />
     <Compile Include="EntityData\Employee.cs">
       <DependentUpon>MoviesDatabaseOfTeamSingaporeSlingEntities.tt</DependentUpon>
     </Compile>
@@ -99,7 +103,6 @@
     <Compile Include="EntityData\Movy.cs">
       <DependentUpon>MoviesDatabaseOfTeamSingaporeSlingEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="M.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EntityData\sysdiagram.cs">
       <DependentUpon>MoviesDatabaseOfTeamSingaporeSlingEntities.tt</DependentUpon>
