@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using MovieDatabase.ExportDataToFiles.Models;
-using MovieDatabase.DatabaseClassinstance;
+using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.Interfaces;
 using MovieDatabase.DatabaseClassInstance;
 

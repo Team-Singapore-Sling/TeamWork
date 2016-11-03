@@ -1,4 +1,4 @@
-﻿using MovieDatabase.DatabaseClassinstance;
+﻿using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.Interfaces;
 using Newtonsoft.Json;

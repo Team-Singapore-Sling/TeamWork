@@ -1,11 +1,12 @@
-﻿using MovieDatabase.EntityData;
+﻿using MovieDatabase.DatabaseClassInstance;
+using MovieDatabase.EntityData;
 using System.Collections.Generic;
 
 namespace MovieDatabase.ImportDataFromFiles
 {
     public abstract class ImportToSQL
     {
-        protected MoviesDatabaseOfTeamSingaporeSlingEntities db = new MoviesDatabaseOfTeamSingaporeSlingEntities();
+        protected IDatabase db = new Database();
 
         public abstract void Import(IEnumerable<object> dataType);
     }

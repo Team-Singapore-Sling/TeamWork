@@ -1,4 +1,4 @@
-﻿using MovieDatabase.DatabaseClassinstance;
+﻿using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles.ImportingData;
 using MovieDatabase.ImportDataFromFiles;
@@ -36,17 +36,17 @@ namespace MovieDatabase.Start
             //}
 
             //read from zip file & populate the database with more data + create updates pdf, xml & json files
-            //var reader = new ReadExcelFromZip();
-            //var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
+            var reader = new ReadExcelFromZip();
+            var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
 
 
-            //foreach (var movie in movies)
-            //{
-            //    Console.WriteLine(movie.Name);
-            //}
+            foreach (var movie in movies)
+            {
+                Console.WriteLine(movie.Name);
+            }
 
-            //var import = new MoviesImportToSql();
-            //import.Import(movies);
+            var import = new MoviesImportToSql();
+            import.Import(movies);
 
             IDatabase db = new Database();
 

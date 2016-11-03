@@ -10,13 +10,10 @@ namespace MovieDatabase.ImportDataFromFiles
         {
             foreach (var movie in dataType)
             {
-                this.db.Movies.Add((Movy)movie);
+                this.db.GetInstance().Movies.Add((Movy)movie);
             }
 
-            db.SaveChanges();
-
+            db.GetInstance().SaveChanges();
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-﻿using MovieDatabase.DatabaseClassinstance;
+﻿using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.EntityData;
 using MovieDatabase.ExportDataToFiles.Interfaces;

@@ -140,6 +140,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>Intersteller</name>
+    <duration>1 hour 45 min</duration>
+    <description>Expected to be a lot better</description>
+    <rating>5</rating>
+    <year>28.10.2015 г. 0:00:00</year>
+    <genres />
+    <directors />
+    <actors />
+  </movie>
+  <movie>
     <name>Into the Inferno</name>
     <duration>1 h 44 min</duration>
     <description>An exploration of active volcanoes around world. </description>
@@ -162,6 +172,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>Monaco</name>
+    <duration>1 hour 30 min</duration>
+    <description>Cool movie</description>
+    <rating>7</rating>
+    <year>28.10.1998 г. 0:00:00</year>
+    <genres />
+    <directors />
+    <actors />
+  </movie>
+  <movie>
     <name>Salt and Fire</name>
     <duration>1 h 38 min</duration>
     <description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </description>
@@ -182,6 +202,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <age>42</age>
       <salary>26000,0000</salary>
     </actors>
+  </movie>
+  <movie>
+    <name>Shawshank Redeption</name>
+    <duration>1 hour 30 min</duration>
+    <description>Not bad</description>
+    <rating>10</rating>
+    <year>28.10.1996 г. 0:00:00</year>
+    <genres />
+    <directors />
+    <actors />
   </movie>
   <movie>
     <name>The Da Vinci Code</name>
