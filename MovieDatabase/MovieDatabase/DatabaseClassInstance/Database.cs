@@ -10,9 +10,15 @@ namespace MovieDatabase.DatabaseClassinstance
 {
     public class Database : IDatabase
     {
+        private static MoviesDatabaseOfTeamSingaporeSlingEntities database;
+
         public MoviesDatabaseOfTeamSingaporeSlingEntities GetInstance()
         {
-            var database = new MoviesDatabaseOfTeamSingaporeSlingEntities();
+            if (database == null)
+            {
+                database = new MoviesDatabaseOfTeamSingaporeSlingEntities();
+            }
+
             return database;
         }
     }
