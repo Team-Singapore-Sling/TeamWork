@@ -16,7 +16,7 @@ namespace ImportToMySql
     {
         public void SendDataToMySql()
         {
-            string connectionString = "server=localhost;database=movierating;uid=root;pwd=1234";
+            string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=davide";
 
             MySqlConnection connection = new MySqlConnection(connectionString);
             MySqlCommand cmd;
@@ -39,18 +39,18 @@ namespace ImportToMySql
             foreach (var file in files)
             {
                 string fileContent = File.ReadAllText(file);
-                try
-                {
-                    Movie currentReport = JsonConvert.DeserializeObject<Movie>(fileContent);
-                    string replaced = currentReport.Name.Replace("'", "");
-                    builder.Append("insert into movieratingreport(Id, MovieName, MovieRating)values(" + currentReport.Id + ", '" + replaced + "', " + currentReport.Rating + ");");
-                }
-                catch(Exception e)
-                {
-                    Console.WriteLine("Error Message::" + e);
-                }
 
-                
+                Movie currentReport = JsonConvert.DeserializeObject<Movie>(fileContent);
+                string replacedName = currentReport.Name.Replace("'", "");
+                string replacedRating = currentReport.Rating.ToString().Replace(",", ".");
+                string replacedDescription = currentReport.Description.ToString();
+                string replacedYear = currentReport.Year.Month.ToString() + "-" + currentReport.Year.Day.ToString() + "-" + currentReport.Year.Year.ToString() +
+                    " " + currentReport.Year.Hour.ToString() + ":" + currentReport.Year.Minute.ToString() + ":" + currentReport.Year.Second.ToString();
+                string replacedDuration = currentReport.Duration.ToString();
+
+                builder.Append(@"insert into movieratingreport(id, name, rating, description, year, duration) 
+                 values(" + currentReport.Id + ", '" + replacedName + "', " + replacedRating + ", '" + replacedDescription + "', STR_TO_DATE('" + replacedYear + "', '%m-%d-%Y %H:%i:%s'), '" + replacedDuration + "');");
+
             }
             return builder.ToString();
         }

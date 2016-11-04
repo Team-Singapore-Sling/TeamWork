@@ -1,0 +1,28 @@
+{
+  "id": 9,
+  "name": "Captain Phillips",
+  "rating": 7.9,
+  "year": "2013-10-11T00:00:00",
+  "description": "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years. ",
+  "duration": "2 h 14 min",
+  "genres": [
+    "Mystery",
+    "Thriller"
+  ],
+  "directors": [
+    {
+      "firstname": "Paul",
+      "lastname": "Greengrass",
+      "age": 61,
+      "salary": 300000.0000
+    }
+  ],
+  "actors": [
+    {
+      "firstname": "Tom",
+      "lastname": "Hanks",
+      "age": 60,
+      "salary": 500000.0000
+    }
+  ]
+}

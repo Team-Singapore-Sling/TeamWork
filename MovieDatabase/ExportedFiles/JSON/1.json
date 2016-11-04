@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "name": "Assassin's Creed",
+  "rating": 6.3,
+  "year": "2016-12-21T00:00:00",
+  "description": "When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society. ",
+  "duration": "2 h 22 min",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "directors": [
+    {
+      "firstname": "Justin",
+      "lastname": "Kurzel",
+      "age": 42,
+      "salary": 5000000.0000
+    }
+  ],
+  "actors": [
+    {
+      "firstname": "Michael",
+      "lastname": "Fassbender",
+      "age": 39,
+      "salary": 150000.0000
+    },
+    {
+      "firstname": "Marion",
+      "lastname": "Cotillard",
+      "age": 41,
+      "salary": 100000.0000
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Williams",
+      "age": 50,
+      "salary": 35000.0000
+    }
+  ]
+}

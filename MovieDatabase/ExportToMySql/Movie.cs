@@ -17,5 +17,8 @@ namespace ExportToMySql
         public string Duration { get; set; }
         public double Rating { get; set; }
 
+        public string Description { get; set; }
+
+        public DateTime Year { get; set; }
     }
 }

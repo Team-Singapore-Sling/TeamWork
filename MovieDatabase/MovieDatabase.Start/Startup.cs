@@ -35,7 +35,7 @@ namespace MovieDatabase.Start
             //}
 
             //read from zip file & populate the database with more data + create updates pdf, xml & json files
-            var reader = new ReadExcelFromZip();
+            /*var reader = new ReadExcelFromZip();
             var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
 
 
@@ -45,19 +45,19 @@ namespace MovieDatabase.Start
             }
 
             var import = new MoviesImportToSql();
-            import.Import(movies);
+            import.Import(movies);*/
 
             IDatabase db = new Database();
 
             //Generating Xml file report
-             var generateXMLFile = new XMLGenerator();
-             generateXMLFile.Generate(db);
+             //var generateXMLFile = new XMLGenerator();
+             //generateXMLFile.Generate(db);
             //Generating Json file reports
-             var generateJsonReports = new JSONGenerator();
-             generateJsonReports.Generate(db);
+             //var generateJsonReports = new JSONGenerator();
+             //generateJsonReports.Generate(db);
             //Generating Pdf fle reports
-            var generatePdfReports = new PDFGenerator();
-            generatePdfReports.Generate(db);
+            //var generatePdfReports = new PDFGenerator();
+            //generatePdfReports.Generate(db);
             //Sending data to MySql
             var sendDataToMySQL = new MySqlManager();
             sendDataToMySQL.SendDataToMySql();

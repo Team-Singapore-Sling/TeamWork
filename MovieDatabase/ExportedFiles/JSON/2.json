@@ -1,0 +1,27 @@
+{
+  "id": 2,
+  "name": "Into the Inferno",
+  "rating": 8.0,
+  "year": "2016-10-28T00:00:00",
+  "description": "An exploration of active volcanoes around world. ",
+  "duration": "1 h 44 min",
+  "genres": [
+    "Documentary"
+  ],
+  "directors": [
+    {
+      "firstname": "Wernen",
+      "lastname": "Herzog",
+      "age": 76,
+      "salary": 150000.0000
+    }
+  ],
+  "actors": [
+    {
+      "firstname": "Clive",
+      "lastname": "Oppenheimer",
+      "age": null,
+      "salary": 15000.0000
+    }
+  ]
+}
