@@ -1,4 +1,5 @@
-﻿using MovieDatabase.DatabaseClassInstance;
+﻿using ImportToMySql;
+using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles;
 using System;
@@ -57,7 +58,9 @@ namespace MovieDatabase.Start
             //Generating Pdf fle reports
             var generatePdfReports = new PDFGenerator();
             generatePdfReports.Generate(db);
-
+            //Sending data to MySql
+            var sendDataToMySQL = new MySqlManager();
+            sendDataToMySQL.SendDataToMySql();
             //XMLImporter.ImportXML();
 
         }
