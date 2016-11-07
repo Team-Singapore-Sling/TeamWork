@@ -59,9 +59,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImportingData\XMLImporter.cs" />
+    <Compile Include="ImportingData\XmlImporter.cs" />
     <Compile Include="ImportingData\XMLModels\Actor.cs" />
-    <Compile Include="ImportingData\XMLModels\Cinema.cs" />
     <Compile Include="ImportingData\XMLModels\Director.cs" />
     <Compile Include="ImportingData\XMLModels\Genre.cs" />
     <Compile Include="ImportingData\XMLModels\Movie.cs" />

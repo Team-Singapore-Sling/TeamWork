@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
 {
+    [Serializable]
+    [XmlType("movie")]
     public class Movie
     {
         [XmlElement("name")]
@@ -15,10 +18,10 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
         public string Description { get; set; }
 
         [XmlElement("rating")]
-        public string Rating { get; set; }
+        public double Rating { get; set; }
 
         [XmlElement("year")]
-        public string Year { get; set; }
+        public DateTime Year { get; set; }
 
         [XmlElement("genres")]
         public List<Genre> Genres { get; set; }

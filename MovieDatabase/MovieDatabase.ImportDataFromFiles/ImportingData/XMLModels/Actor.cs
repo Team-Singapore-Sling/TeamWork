@@ -12,9 +12,9 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
         public List<string> LastName { get; set; }
 
         [XmlElement("age")]
-        public List<string> Age { get; set; }
+        public List<int> Age { get; set; }
 
         [XmlElement("salary")]
-        public List<string> Salary { get; set; }
+        public List<decimal> Salary { get; set; }
     }
 }

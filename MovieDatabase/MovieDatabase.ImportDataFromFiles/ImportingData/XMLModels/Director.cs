@@ -11,9 +11,9 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
         public string LastName { get; set; }
 
         [XmlElement("age")]
-        public string Age { get; set; }
+        public int Age { get; set; }
 
         [XmlElement("salary")]
-        public string Salary { get; set; }
+        public decimal Salary { get; set; }
     }
 }

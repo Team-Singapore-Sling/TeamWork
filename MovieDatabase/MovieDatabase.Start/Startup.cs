@@ -3,7 +3,9 @@ using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles;
 using System;
+using MovieDatabase.EntityData;
 using MovieDatabase.ImportDataFromFiles.ImportingData;
+using System.Data.Entity;
 
 namespace MovieDatabase.Start
 {
@@ -12,6 +14,7 @@ namespace MovieDatabase.Start
         public static void Main()
         {
             //var db = new MoviesDatabaseOfTeamSingaporeSlingEntities();
+
             //var employees = db.Employees
             //                .Where(e => e.FirstName == "Tom")
             //                .Select(n =>
@@ -48,7 +51,7 @@ namespace MovieDatabase.Start
             var import = new MoviesImportToSql();
             import.Import(movies);*/
 
-            IDatabase db = new Database();
+            //IDatabase db = new Database();
 
             //Generating Xml file report
             //var generateXMLFile = new XMLGenerator();
@@ -62,8 +65,8 @@ namespace MovieDatabase.Start
             //Sending data to MySql
             //var sendDataToMySQL = new MySqlManager();
             //sendDataToMySQL.SendDataToMySql();
-            //XmlImporter.ImportXml();
 
+            //XmlImporter.ImportXml();
         }
     }
 }

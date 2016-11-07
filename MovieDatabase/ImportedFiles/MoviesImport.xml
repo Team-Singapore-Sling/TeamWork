@@ -1,240 +1,237 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<cinema>
+<movies>
   <movie>
-    <name>Angels &amp; Demons</name>
+    <name>The Shawshank Redemption</name>
     <duration>2 h 18 min</duration>
-    <description>Harvard symbologist Robert Langdon works to solve a murder and prevent a terrorist act against the Vatican.</description>
-    <rating>6,7</rating>
-    <year>15.5.2009</year>
+    <description>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</description>
+    <rating>9.3</rating>
+    <year>1994-10-14</year>
     <genres>
-      <name>Mystery</name>
-      <name>Thriller</name>
-    </genres>
-    <directors>
-      <firstName>Ron</firstName>
-      <lastName>Howard</lastName>
-      <age>62</age>
-      <salary>3000000</salary>
-    </directors>
-    <actors>
-      <firstName>Ayelet</firstName>
-      <lastName>Zurer</lastName>
-      <age>47</age>
-      <salary>20000</salary>
-      <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
-      <salary>500000</salary>
-    </actors>
-  </movie>
-  <movie>
-    <name>Assassin's Creed</name>
-    <duration>2 h 22 min</duration>
-    <description>When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society. </description>
-    <rating>6,3</rating>
-    <year>21.12.201</year>
-    <genres>
-      <name>Action</name>
-      <name>Adventure</name>
-      <name>Fantasy</name>
-    </genres>
-    <directors>
-      <firstName>Justin</firstName>
-      <lastName>Kurzel</lastName>
-      <age>42</age>
-      <salary>5000000</salary>
-    </directors>
-    <actors>
-      <firstName>Marion</firstName>
-      <lastName>Cotillard</lastName>
-      <age>41</age>
-      <salary>100000</salary>
-      <firstName>Michael</firstName>
-      <lastName>Fassbender</lastName>
-      <age>39</age>
-      <salary>150000</salary>
-      <firstName>Michael</firstName>
-      <lastName>Williams</lastName>
-      <age>50</age>
-      <salary>35000</salary>
-    </actors>
-  </movie>
-  <movie>
-    <name>Captain Phillips</name>
-    <duration>2 h 14 min</duration>
-    <description>The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years. </description>
-    <rating>7,9</rating>
-    <year>11.10.201</year>
-    <genres>
-      <name>Mystery</name>
-      <name>Thriller</name>
-    </genres>
-    <directors>
-      <firstName>Paul</firstName>
-      <lastName>Greengrass</lastName>
-      <age>61</age>
-      <salary>300000</salary>
-    </directors>
-    <actors>
-      <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
-      <salary>500000</salary>
-    </actors>
-  </movie>
-  <movie>
-    <name>Cast Away</name>
-    <duration>2 h 23 min</duration>
-    <description>
-A FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island. </description>
-    <rating>7,7</rating>
-    <year>22.12.200</year>
-    <genres>
-      <name>Adventure</name>
+      <name>Crime</name>
       <name>Drama</name>
-      <name>Romance</name>
     </genres>
     <directors>
-      <firstName>Robert</firstName>
-      <lastName>Zemeckis</lastName>
-      <age>64</age>
+      <firstName>Frank</firstName>
+      <lastName>Darabont</lastName>
+      <age>57</age>
       <salary>3000000</salary>
     </directors>
     <actors>
-      <firstName>Lari</firstName>
-      <lastName>White</lastName>
-      <age>51</age>
-      <salary>14000</salary>
-      <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
+      <firstName>Tim</firstName>
+      <lastName>Robbins</lastName>
+      <age>58</age>
+      <salary>20000</salary>
+      <firstName>William</firstName>
+      <lastName>Sadler</lastName>
+      <age>66</age>
       <salary>500000</salary>
     </actors>
   </movie>
   <movie>
-    <name>Inferno</name>
-    <duration>2 h 1 min</duration>
-    <description>When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot. </description>
-    <rating>6,5</rating>
-    <year>28.10.201</year>
+    <name>The Godfather</name>
+    <duration>2 h 55 min</duration>
+    <description>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</description>
+    <rating>9.2</rating>
+    <year>1972-03-24</year>
     <genres>
-      <name>Action</name>
-      <name>Adventure</name>
       <name>Crime</name>
     </genres>
     <directors>
-      <firstName>Ron</firstName>
-      <lastName>Howard</lastName>
-      <age>62</age>
-      <salary>3000000</salary>
+      <firstName>Francis</firstName>
+      <lastName>Coppola</lastName>
+      <age>77</age>
+      <salary>5000000</salary>
     </directors>
     <actors>
-      <firstName>Felicity</firstName>
-      <lastName>Jones</lastName>
-      <age>32</age>
-      <salary>180000</salary>
+      <firstName>Al</firstName>
+      <lastName>Pacino</lastName>
+      <age>76</age>
+      <salary>100000</salary>
+      <firstName>James</firstName>
+      <lastName>Caan</lastName>
+      <age>76</age>
+      <salary>150000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Inception</name>
+    <duration>2 h 28 min</duration>
+    <description>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</description>
+    <rating>8.8</rating>
+    <year>2010-07-23</year>
+    <genres>
+      <name>Action</name>
+      <name>Adventure</name>
+    </genres>
+    <directors>
+      <firstName>Christopher</firstName>
+      <lastName>Nolan</lastName>
+      <age>46</age>
+      <salary>300000</salary>
+    </directors>
+    <actors>
+      <firstName>Leonardo</firstName>
+      <lastName>DiCaprio</lastName>
+      <age>42</age>
+      <salary>500000</salary>
       <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
+      <lastName>Hardy</lastName>
+      <age>39</age>
+      <salary>500000</salary>
+      <firstName>Ellen</firstName>
+      <lastName>Page</lastName>
+      <age>29</age>
       <salary>500000</salary>
     </actors>
   </movie>
   <movie>
-    <name>Into the Inferno</name>
-    <duration>1 h 44 min</duration>
-    <description>An exploration of active volcanoes around world. </description>
-    <rating>8</rating>
-    <year>28.10.201</year>
+    <name>The Dark Knight</name>
+    <duration>2 h 32 min</duration>
+    <description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.</description>
+    <rating>9.0</rating>
+    <year>2008-07-25</year>
     <genres>
-      <name>Documentary</name>
+      <name>Action</name>
+      <name>Drama</name>
+      <name>Crime</name>
     </genres>
     <directors>
-      <firstName>Wernen</firstName>
-      <lastName>Herzog</lastName>
-      <age>76</age>
+      <firstName>Christopher</firstName>
+      <lastName>Nolan</lastName>
+      <age>46</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Christian</firstName>
+      <lastName>Bale</lastName>
+      <age>42</age>
+      <salary>14000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>What Happens in Vegas</name>
+    <duration>1 h 40 min</duration>
+    <description>A man and a woman are compelled, for legal reasons, to live life as a couple for a limited period of time. At stake is a large amount of money. </description>
+    <rating>6.1</rating>
+    <year>2008-05-09</year>
+    <genres>
+      <name>Comedy</name>
+      <name>Romantic</name>
+    </genres>
+    <directors>
+      <firstName>Tom</firstName>
+      <lastName>Vaughan</lastName>
+      <age>47</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Cameron</firstName>
+      <lastName>Diaz</lastName>
+      <age>44</age>
+      <salary>180000</salary>
+      <firstName>Ashton</firstName>
+      <lastName>Kutcher</lastName>
+      <age>38</age>
+      <salary>500000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Notebook</name>
+    <duration>2 h 3 min</duration>
+    <description>A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences. </description>
+    <rating>7.9</rating>
+    <year>2004-06-25</year>
+    <genres>
+      <name>Romance</name>
+    </genres>
+    <directors>
+      <firstName>Cassavetes</firstName>
+      <lastName>Nick</lastName>
+      <age>57</age>
       <salary>150000</salary>
     </directors>
     <actors>
-      <firstName>Clive</firstName>
-      <lastName>Oppenheimer</lastName>
-      <age />
+      <firstName>Ryan</firstName>
+      <lastName>Gosling</lastName>
+      <age>36</age>
+      <salary>15000</salary>
+      <firstName>Rachel</firstName>
+      <lastName>McAdams</lastName>
+      <age>37</age>
       <salary>15000</salary>
     </actors>
   </movie>
   <movie>
-    <name>Salt and Fire</name>
-    <duration>1 h 38 min</duration>
-    <description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </description>
-    <rating>4,9</rating>
-    <year>17.11.201</year>
+    <name>Dream house</name>
+    <duration>1 h 24 min</duration>
+    <description>Soon after moving into their seemingly idyllic new home, a family learns of a brutal crime committed against former residents of the dwelling. </description>
+    <rating>6</rating>
+    <year>2011-10-07</year>
     <genres>
       <name>Thriller</name>
     </genres>
     <directors>
-      <firstName>Wernen</firstName>
-      <lastName>Herzog</lastName>
-      <age>76</age>
+      <firstName>Jim</firstName>
+      <lastName>Sheridan</lastName>
+      <age>67</age>
       <salary>150000</salary>
     </directors>
     <actors>
-      <firstName>Michael</firstName>
-      <lastName>Shannon</lastName>
-      <age>42</age>
+      <firstName>Daniel</firstName>
+      <lastName>Craig</lastName>
+      <age>48</age>
       <salary>26000</salary>
     </actors>
   </movie>
   <movie>
-    <name>The Da Vinci Code</name>
-    <duration>2 h 29 min</duration>
-    <description>A murder inside the Louvre and clues in Da Vinci paintings lead to the discovery of a religious mystery protected by a secret society for two thousand years -- which could shake the foundations of Christianity. </description>
-    <rating>6,6</rating>
-    <year>19.5.2006</year>
+    <name>Arrival</name>
+    <duration>1 h 56 min</duration>
+    <description>A linguist is recruited by the military to assist in translating alien communications.</description>
+    <rating>8.5</rating>
+    <year>2016-11-11</year>
     <genres>
+      <name>SciFi</name>
       <name>Drama</name>
-      <name>Thriller</name>
+      <name>Mistery</name>
     </genres>
     <directors>
-      <firstName>Ron</firstName>
-      <lastName>Howard</lastName>
-      <age>62</age>
+      <firstName>Denis</firstName>
+      <lastName>Villeneuve</lastName>
+      <age>49</age>
       <salary>3000000</salary>
     </directors>
     <actors>
-      <firstName>Audrey</firstName>
-      <lastName>Tautou</lastName>
-      <age>40</age>
+      <firstName>Jeremy</firstName>
+      <lastName>Renner</lastName>
+      <age>45</age>
       <salary>430000</salary>
-      <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
+      <firstName>Amy</firstName>
+      <lastName>Adams</lastName>
+      <age>42</age>
       <salary>500000</salary>
     </actors>
   </movie>
   <movie>
-    <name>The Terminal</name>
-    <duration>2 h 8 min </duration>
-    <description>An eastern immigrant finds himself stranded in JFK airport, and must take up temporary residence there. </description>
-    <rating>7,3</rating>
-    <year>18.6.2004</year>
+    <name>The Fast and the Furious</name>
+    <duration>1 h 46 min </duration>
+    <description>Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy. </description>
+    <rating>6.7</rating>
+    <year>2001-08-31</year>
     <genres>
-      <name>Comedy</name>
-      <name>Drama</name>
+      <name>Crime</name>
+      <name>Action</name>
     </genres>
     <directors>
-      <firstName>Steven</firstName>
-      <lastName>Spielberg</lastName>
-      <age>69</age>
+      <firstName>Rob</firstName>
+      <lastName>Cohen</lastName>
+      <age>67</age>
       <salary>7500000</salary>
     </directors>
     <actors>
-      <firstName>Catherine</firstName>
-      <lastName>Jones</lastName>
-      <age>47</age>
+      <firstName>Vin</firstName>
+      <lastName>Diesel</lastName>
+      <age>49</age>
       <salary>100000</salary>
-      <firstName>Tom</firstName>
-      <lastName>Hanks</lastName>
-      <age>60</age>
-      <salary>500000</salary>
     </actors>
   </movie>
-</cinema>
+</movies>
