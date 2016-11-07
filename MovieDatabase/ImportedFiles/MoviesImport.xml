@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<movies>
+<cinema>
   <movie>
     <name>Angels &amp; Demons</name>
     <duration>2 h 18 min</duration>
@@ -237,4 +237,4 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <salary>500000</salary>
     </actors>
   </movie>
-</movies>
+</cinema>

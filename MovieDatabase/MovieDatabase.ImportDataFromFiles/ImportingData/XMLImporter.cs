@@ -1,14 +1,17 @@
-﻿using MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels;
+﻿using System;
+using MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels;
 using System.IO;
 using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData
 {
-    public class XMLImporter
+    public class XmlImporter
     {
-       public static void ImportXML()
+        private const string XmlPath = "../../../ImportedFiles/MoviesImport.xml";
+
+       public static void ImportXml()
         {
-            using (var reader = new StreamReader("../../../ImportedFiles/MoviesImport.xml"))
+            using (var reader = new StreamReader(XmlPath))
             {
                 var xmlSerializer = new XmlSerializer(typeof(Cinema));
                 var xmlDeserializer = xmlSerializer.Deserialize(reader);

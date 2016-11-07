@@ -3,10 +3,9 @@ using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
 {
-    [XmlRoot("cinema")]
-    public class Cinema
+    public class Genre
     {
-        [XmlElement("movie")]
-        public List<Movie> Movies { get; set; }
+        [XmlElement("name")]
+        public List<string> GenreName { get; set; }
     }
 }

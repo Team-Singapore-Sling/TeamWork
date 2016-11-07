@@ -3,6 +3,7 @@ using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles;
 using System;
+using MovieDatabase.ImportDataFromFiles.ImportingData;
 
 namespace MovieDatabase.Start
 {
@@ -50,18 +51,18 @@ namespace MovieDatabase.Start
             IDatabase db = new Database();
 
             //Generating Xml file report
-             //var generateXMLFile = new XMLGenerator();
-             //generateXMLFile.Generate(db);
+            //var generateXMLFile = new XMLGenerator();
+            //generateXMLFile.Generate(db);
             //Generating Json file reports
-             //var generateJsonReports = new JSONGenerator();
-             //generateJsonReports.Generate(db);
+            //var generateJsonReports = new JSONGenerator();
+            //generateJsonReports.Generate(db);
             //Generating Pdf fle reports
             //var generatePdfReports = new PDFGenerator();
             //generatePdfReports.Generate(db);
             //Sending data to MySql
-            var sendDataToMySQL = new MySqlManager();
-            sendDataToMySQL.SendDataToMySql();
-            //XMLImporter.ImportXML();
+            //var sendDataToMySQL = new MySqlManager();
+            //sendDataToMySQL.SendDataToMySql();
+            //XmlImporter.ImportXml();
 
         }
     }

@@ -1,16 +1,20 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
 {
     public class Actor
     {
-        [XmlElement("FirstName")]
-        public string FirstName { get; set; }
+        [XmlElement("firstName")]
+        public List<string> FirstName { get; set; }
 
-        [XmlElement("LastName")]
-        public string LastName { get; set; }
+        [XmlElement("lastName")]
+        public List<string> LastName { get; set; }
 
-        [XmlElement("Age")]
-        public string Age { get; set; }
+        [XmlElement("age")]
+        public List<string> Age { get; set; }
+
+        [XmlElement("salary")]
+        public List<string> Salary { get; set; }
     }
 }

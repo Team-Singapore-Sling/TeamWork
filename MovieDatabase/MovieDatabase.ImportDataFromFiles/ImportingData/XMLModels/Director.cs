@@ -4,13 +4,16 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
 {
     public class Director
     {
-        [XmlElement("FirstName")]
+        [XmlElement("firstName")]
         public string FirstName { get; set; }
 
-        [XmlElement("LastName")]
+        [XmlElement("lastName")]
         public string LastName { get; set; }
 
-        [XmlElement("Age")]
+        [XmlElement("age")]
         public string Age { get; set; }
+
+        [XmlElement("salary")]
+        public string Salary { get; set; }
     }
 }

@@ -5,29 +5,28 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData.XMLModels
 {
     public class Movie
     {
-        [XmlElement("Name")]
+        [XmlElement("name")]
         public string Name { get; set; }
 
-        [XmlElement("Duration")]
-        public int Duration { get; set; }
+        [XmlElement("duration")]
+        public string Duration { get; set; }
 
-        [XmlElement("Description")]
+        [XmlElement("description")]
         public string Description { get; set; }
 
-        [XmlElement("Rating")]
-        public double Rating { get; set; }
+        [XmlElement("rating")]
+        public string Rating { get; set; }
 
-        [XmlElement("Year")]
-        public int Year { get; set; }
+        [XmlElement("year")]
+        public string Year { get; set; }
 
-        [XmlElement("Genre")]
-        public string Genre { get; set; }
+        [XmlElement("genres")]
+        public List<Genre> Genres { get; set; }
 
-        [XmlElement("Director")]
+        [XmlElement("directors")]
         public Director Director { get; set; }
 
-        [XmlArray("Actors")]
-        [XmlArrayItem("Actor")]
-        public List<Actor> Actors { get; set; }
+        [XmlElement("actors")]
+        public Actor Actors { get; set; }
     }
 }

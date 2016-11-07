@@ -63,6 +63,7 @@
     <Compile Include="ImportingData\XMLModels\Actor.cs" />
     <Compile Include="ImportingData\XMLModels\Cinema.cs" />
     <Compile Include="ImportingData\XMLModels\Director.cs" />
+    <Compile Include="ImportingData\XMLModels\Genre.cs" />
     <Compile Include="ImportingData\XMLModels\Movie.cs" />
     <Compile Include="ImportToSQL.cs" />
     <Compile Include="MoviesImportToSql.cs" />
