@@ -28,6 +28,32 @@
     </actors>
   </movie>
   <movie>
+    <name>Arrival</name>
+    <duration>1 h 56 min</duration>
+    <description>A linguist is recruited by the military to assist in translating alien communications.</description>
+    <rating>8,5</rating>
+    <year>11.11.201</year>
+    <genres>
+      <name>SciFi</name>
+    </genres>
+    <directors>
+      <firstName>Denis</firstName>
+      <lastName>Villeneuve</lastName>
+      <age>49</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Amy</firstName>
+      <lastName>Adams</lastName>
+      <age>42</age>
+      <salary>500000</salary>
+      <firstName>Jeremy</firstName>
+      <lastName>Renner</lastName>
+      <age>45</age>
+      <salary>430000</salary>
+    </actors>
+  </movie>
+  <movie>
     <name>Assassin's Creed</name>
     <duration>2 h 22 min</duration>
     <description>When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society. </description>
@@ -112,6 +138,58 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>Dream house</name>
+    <duration>1 h 24 min</duration>
+    <description>Soon after moving into their seemingly idyllic new home, a family learns of a brutal crime committed against former residents of the dwelling. </description>
+    <rating>6</rating>
+    <year>7.10.2011</year>
+    <genres>
+      <name>Thriller</name>
+    </genres>
+    <directors>
+      <firstName>Jim</firstName>
+      <lastName>Sheridan</lastName>
+      <age>67</age>
+      <salary>150000</salary>
+    </directors>
+    <actors>
+      <firstName>Daniel</firstName>
+      <lastName>Craig</lastName>
+      <age>48</age>
+      <salary>26000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>Inception</name>
+    <duration>2 h 28 min</duration>
+    <description>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</description>
+    <rating>8,8</rating>
+    <year>23.7.2010</year>
+    <genres>
+      <name>Action</name>
+    </genres>
+    <directors>
+      <firstName>Christopher</firstName>
+      <lastName>Nolan</lastName>
+      <age>46</age>
+      <salary>300000</salary>
+    </directors>
+    <actors>
+      <firstName>Ellen</firstName>
+      <lastName>Page</lastName>
+      <age>29</age>
+      <salary>500000</salary>
+      <firstName>Leonardo</firstName>
+      <lastName>DiCaprio</lastName>
+      <age>42</age>
+      <salary>500000</salary>
+      <firstName>Tom</firstName>
+      <lastName>Hardy</lastName>
+      <age>39</age>
+      <salary>500000</salary>
+    </actors>
+  </movie>
+  <movie>
     <name>Inferno</name>
     <duration>2 h 1 min</duration>
     <description>When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot. </description>
@@ -140,6 +218,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>Intersteller</name>
+    <duration>1 hour 45 min</duration>
+    <description>Expected to be a lot better</description>
+    <rating>5</rating>
+    <year>28.10.201</year>
+    <genres />
+    <directors />
+    <actors />
+  </movie>
+  <movie>
     <name>Into the Inferno</name>
     <duration>1 h 44 min</duration>
     <description>An exploration of active volcanoes around world. </description>
@@ -162,6 +250,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>Monaco</name>
+    <duration>1 hour 30 min</duration>
+    <description>Cool movie</description>
+    <rating>7</rating>
+    <year>28.10.199</year>
+    <genres />
+    <directors />
+    <actors />
+  </movie>
+  <movie>
     <name>Salt and Fire</name>
     <duration>1 h 38 min</duration>
     <description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </description>
@@ -182,6 +280,16 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <age>42</age>
       <salary>26000,0000</salary>
     </actors>
+  </movie>
+  <movie>
+    <name>Shawshank Redeption</name>
+    <duration>1 hour 30 min</duration>
+    <description>Not bad</description>
+    <rating>10</rating>
+    <year>28.10.199</year>
+    <genres />
+    <directors />
+    <actors />
   </movie>
   <movie>
     <name>The Da Vinci Code</name>
@@ -211,6 +319,128 @@ A FedEx executive must transform himself physically and emotionally to survive a
     </actors>
   </movie>
   <movie>
+    <name>The Dark Knight</name>
+    <duration>2 h 32 min</duration>
+    <description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.</description>
+    <rating>9</rating>
+    <year>25.7.2008</year>
+    <genres>
+      <name>Action</name>
+    </genres>
+    <directors>
+      <firstName>Christopher</firstName>
+      <lastName>Nolan</lastName>
+      <age>46</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Christian</firstName>
+      <lastName>Bale</lastName>
+      <age>42</age>
+      <salary>14000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Fast and the Furious</name>
+    <duration>1 h 46 min </duration>
+    <description>Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy. </description>
+    <rating>6,7</rating>
+    <year>31.8.2001</year>
+    <genres>
+      <name>Crime</name>
+    </genres>
+    <directors>
+      <firstName>Rob</firstName>
+      <lastName>Cohen</lastName>
+      <age>67</age>
+      <salary>7500000</salary>
+    </directors>
+    <actors>
+      <firstName>Vin</firstName>
+      <lastName>Diesel</lastName>
+      <age>49</age>
+      <salary>100000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Godfather</name>
+    <duration>2 h 55 min</duration>
+    <description>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</description>
+    <rating>9,2</rating>
+    <year>24.3.1972</year>
+    <genres>
+      <name>Crime</name>
+    </genres>
+    <directors>
+      <firstName>Francis</firstName>
+      <lastName>Coppola</lastName>
+      <age>77</age>
+      <salary>5000000</salary>
+    </directors>
+    <actors>
+      <firstName>Al</firstName>
+      <lastName>Pacino</lastName>
+      <age>76</age>
+      <salary>100000</salary>
+      <firstName>James</firstName>
+      <lastName>Caan</lastName>
+      <age>76</age>
+      <salary>150000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Notebook</name>
+    <duration>2 h 3 min</duration>
+    <description>A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences. </description>
+    <rating>7,9</rating>
+    <year>25.6.2004</year>
+    <genres>
+      <name>Romance</name>
+    </genres>
+    <directors>
+      <firstName>Cassavetes</firstName>
+      <lastName>Nick</lastName>
+      <age>57</age>
+      <salary>150000</salary>
+    </directors>
+    <actors>
+      <firstName>Rachel</firstName>
+      <lastName>McAdams</lastName>
+      <age>37</age>
+      <salary>15000</salary>
+      <firstName>Ryan</firstName>
+      <lastName>Gosling</lastName>
+      <age>36</age>
+      <salary>15000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>The Shawshank Redemption</name>
+    <duration>2 h 18 min</duration>
+    <description>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</description>
+    <rating>9,3</rating>
+    <year>14.10.199</year>
+    <genres>
+      <name>Crime</name>
+    </genres>
+    <directors>
+      <firstName>Frank</firstName>
+      <lastName>Darabont</lastName>
+      <age>57</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Tim</firstName>
+      <lastName>Robbins</lastName>
+      <age>58</age>
+      <salary>20000</salary>
+      <firstName>William</firstName>
+      <lastName>Sadler</lastName>
+      <age>66</age>
+      <salary>500000</salary>
+    </actors>
+  </movie>
+  <movie>
     <name>The Terminal</name>
     <duration>2 h 8 min </duration>
     <description>An eastern immigrant finds himself stranded in JFK airport, and must take up temporary residence there. </description>
@@ -235,6 +465,32 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <lastName>Hanks</lastName>
       <age>60</age>
       <salary>500000,0000</salary>
+    </actors>
+  </movie>
+  <movie>
+    <name>What Happens in Vegas</name>
+    <duration>1 h 40 min</duration>
+    <description>A man and a woman are compelled, for legal reasons, to live life as a couple for a limited period of time. At stake is a large amount of money. </description>
+    <rating>6,1</rating>
+    <year>9.5.2008 </year>
+    <genres>
+      <name>Comedy</name>
+    </genres>
+    <directors>
+      <firstName>Tom</firstName>
+      <lastName>Vaughan</lastName>
+      <age>47</age>
+      <salary>3000000</salary>
+    </directors>
+    <actors>
+      <firstName>Ashton</firstName>
+      <lastName>Kutcher</lastName>
+      <age>38</age>
+      <salary>500000</salary>
+      <firstName>Cameron</firstName>
+      <lastName>Diaz</lastName>
+      <age>44</age>
+      <salary>180000</salary>
     </actors>
   </movie>
 </movies>

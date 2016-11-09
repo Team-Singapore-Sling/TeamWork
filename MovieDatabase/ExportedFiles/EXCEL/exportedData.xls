@@ -17,60 +17,99 @@
     <duration>1 h 44 min</duration>
   </movieratingreport>
   <movieratingreport>
-    <id>3</id>
-    <name>Salt and Fire</name>
-    <rating>4.9</rating>
-    <description>A scientist blames the head of a large company for an ecological disaster in South America. But when a volcano begins to show signs of erupting, they must unite to avoid a disaster. </description>
-    <year>2016-11-17T00:00:00+02:00</year>
-    <duration>1 h 38 min</duration>
-  </movieratingreport>
-  <movieratingreport>
-    <id>4</id>
-    <name>Inferno</name>
-    <rating>6.5</rating>
-    <description>When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot. </description>
-    <year>2016-10-28T00:00:00+03:00</year>
-    <duration>2 h 1 min</duration>
-  </movieratingreport>
-  <movieratingreport>
-    <id>5</id>
-    <name>Angels &amp; Demons</name>
-    <rating>6.7</rating>
-    <description>Harvard symbologist Robert Langdon works to solve a murder and prevent a terrorist act against the Vatican.</description>
-    <year>2009-05-15T00:00:00+03:00</year>
-    <duration>2 h 18 min</duration>
-  </movieratingreport>
-  <movieratingreport>
-    <id>6</id>
-    <name>The Terminal</name>
-    <rating>7.3</rating>
-    <description>An eastern immigrant finds himself stranded in JFK airport, and must take up temporary residence there. </description>
-    <year>2004-06-18T00:00:00+03:00</year>
-    <duration>2 h 8 min </duration>
-  </movieratingreport>
-  <movieratingreport>
-    <id>8</id>
-    <name>Cast Away</name>
-    <rating>7.7</rating>
-    <description>
-A FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island. </description>
-    <year>2000-12-22T00:00:00+02:00</year>
-    <duration>2 h 23 min</duration>
-  </movieratingreport>
-  <movieratingreport>
-    <id>9</id>
-    <name>Captain Phillips</name>
-    <rating>7.9</rating>
-    <description>The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years. </description>
-    <year>2013-10-11T00:00:00+03:00</year>
-    <duration>2 h 14 min</duration>
-  </movieratingreport>
-  <movieratingreport>
     <id>10</id>
     <name>The Da Vinci Code</name>
     <rating>6.6</rating>
     <description>A murder inside the Louvre and clues in Da Vinci paintings lead to the discovery of a religious mystery protected by a secret society for two thousand years -- which could shake the foundations of Christianity. </description>
     <year>2006-05-19T00:00:00+03:00</year>
     <duration>2 h 29 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>11</id>
+    <name>Monaco</name>
+    <rating>7</rating>
+    <description>Cool movie</description>
+    <year>1998-10-28T00:00:00+02:00</year>
+    <duration>1 hour 30 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>12</id>
+    <name>Shawshank Redeption</name>
+    <rating>10</rating>
+    <description>Not bad</description>
+    <year>1996-10-28T00:00:00+02:00</year>
+    <duration>1 hour 30 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>13</id>
+    <name>Intersteller</name>
+    <rating>5</rating>
+    <description>Expected to be a lot better</description>
+    <year>2015-10-28T00:00:00+02:00</year>
+    <duration>1 hour 45 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>14</id>
+    <name>The Shawshank Redemption</name>
+    <rating>9.3</rating>
+    <description>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</description>
+    <year>1994-10-14T00:00:00+03:00</year>
+    <duration>2 h 18 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>15</id>
+    <name>The Godfather</name>
+    <rating>9.2</rating>
+    <description>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</description>
+    <year>1972-03-24T00:00:00+02:00</year>
+    <duration>2 h 55 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>16</id>
+    <name>Inception</name>
+    <rating>8.8</rating>
+    <description>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</description>
+    <year>2010-07-23T00:00:00+03:00</year>
+    <duration>2 h 28 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>17</id>
+    <name>The Dark Knight</name>
+    <rating>9</rating>
+    <description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.</description>
+    <year>2008-07-25T00:00:00+03:00</year>
+    <duration>2 h 32 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>18</id>
+    <name>What Happens in Vegas</name>
+    <rating>6.1</rating>
+    <description>A man and a woman are compelled, for legal reasons, to live life as a couple for a limited period of time. At stake is a large amount of money. </description>
+    <year>2008-05-09T00:00:00+03:00</year>
+    <duration>1 h 40 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>19</id>
+    <name>The Notebook</name>
+    <rating>7.9</rating>
+    <description>A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences. </description>
+    <year>2004-06-25T00:00:00+03:00</year>
+    <duration>2 h 3 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>20</id>
+    <name>Dream house</name>
+    <rating>6</rating>
+    <description>Soon after moving into their seemingly idyllic new home, a family learns of a brutal crime committed against former residents of the dwelling. </description>
+    <year>2011-10-07T00:00:00+03:00</year>
+    <duration>1 h 24 min</duration>
+  </movieratingreport>
+  <movieratingreport>
+    <id>21</id>
+    <name>Arrival</name>
+    <rating>8.5</rating>
+    <description>A linguist is recruited by the military to assist in translating alien communications.</description>
+    <year>2016-11-11T00:00:00+02:00</year>
+    <duration>1 h 56 min</duration>
   </movieratingreport>
 </DocumentElement>

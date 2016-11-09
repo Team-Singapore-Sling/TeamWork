@@ -49,10 +49,12 @@ namespace MovieDatabase.Start
             var generatePdfReports = new PDFGenerator();
             generatePdfReports.Generate(db);
 
+            Console.WriteLine("Sending data to MySql...");
             //Sending data to MySql
-            //var sendDataToMySQL = new MySqlManager();
-            //sendDataToMySQL.SendDataToMySql();
+            var sendDataToMySQL = new MySqlManager();
+            sendDataToMySQL.SendDataToMySql();
 
+            Console.WriteLine("Exporting data from MySql to excel file...");
             //Exporting data from MySql to excel file
             var mySqlExcelExport = new MySqlManager();
             mySqlExcelExport.ExportDataFromMySql();
