@@ -26,8 +26,15 @@ namespace ImportToMySql
             cmd = connection.CreateCommand();
             //Console.WriteLine(GetJsonFilesData());
             cmd.CommandText = GetJsonFilesData();
+            try
+            {
+                cmd.ExecuteNonQuery();
 
-            cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         public string GetJsonFilesData()
