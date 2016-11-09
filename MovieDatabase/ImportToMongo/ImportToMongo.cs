@@ -7,11 +7,10 @@ namespace ImportToMongo
 {
     public class ImportToMongo
     {
-        static void Main()
+        public static void ImportData()
         {
-
             XmlDocument doc = new XmlDocument();
-            doc.Load("../../../../MoviesImport.xml");
+            doc.Load("../../../../MovieDatabase/ImportedFiles/MoviesImport.xml");
 
             XmlNode rootNode = doc.DocumentElement;
 

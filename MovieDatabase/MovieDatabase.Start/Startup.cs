@@ -2,10 +2,8 @@
 using MovieDatabase.DatabaseClassInstance;
 using MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses;
 using MovieDatabase.ImportDataFromFiles;
-using System;
-using MovieDatabase.EntityData;
 using MovieDatabase.ImportDataFromFiles.ImportingData;
-using System.Data.Entity;
+using System;
 
 namespace MovieDatabase.Start
 {
@@ -13,33 +11,10 @@ namespace MovieDatabase.Start
     {
         public static void Main()
         {
-            //var db = new MoviesDatabaseOfTeamSingaporeSlingEntities();
-
-            //var employees = db.Employees
-            //                .Where(e => e.FirstName == "Tom")
-            //                .Select(n =>
-            //                new
-            //                {
-            //                    FirstName = n.FirstName,
-            //                    LastName = n.LastName,
-            //                    Salary = n.Salary,
-            //                    Movies = n.Movies.Select(m => m.Name).ToList(),
-            //                    IsDirector = n.IsDirector
-            //                }
-            //                    )
-            //                .ToList();
-
-            //foreach (var employee in employees)
-            //{
-            //    Console.WriteLine("The actor {0} {1} has participated in this movies:", employee.FirstName, employee.LastName);
-            //    foreach (var movie in employee.Movies)
-            //    {
-            //        Console.WriteLine(movie);
-            //    }
-            //}
+            IDatabase db = new Database();
 
             //read from zip file & populate the database with more data + create updates pdf, xml & json files
-            /*var reader = new ReadExcelFromZip();
+            var reader = new ReadExcelFromZip();
             var movies = reader.SelectExcelFilesFromZip("../../../../Movies.zip");
 
 
@@ -49,25 +24,36 @@ namespace MovieDatabase.Start
             }
 
             var import = new MoviesImportToSql();
-            import.Import(movies);*/
+            import.Import(movies);
 
-            //IDatabase db = new Database();
+            Console.WriteLine("Importing data from xml...");
+            //Importing data from xml
+            XmlImporter.ImportXml(db);
 
+            //Console.WriteLine("Importing data to Mongo...");
+            //Importing data to MongoDB
+            //ImportToMongo.ImportToMongo.ImportData();
+
+            Console.WriteLine("Generating xml files...");
             //Generating Xml file report
-            //var generateXMLFile = new XMLGenerator();
-            //generateXMLFile.Generate(db);
+            var generateXMLFile = new XMLGenerator();
+            generateXMLFile.Generate(db);
+
+            Console.WriteLine("Generating json files...");
             //Generating Json file reports
-            //var generateJsonReports = new JSONGenerator();
-            //generateJsonReports.Generate(db);
+            var generateJsonReports = new JSONGenerator();
+            generateJsonReports.Generate(db);
+
+            Console.WriteLine("Generating pdf reports...");
             //Generating Pdf fle reports
-            //var generatePdfReports = new PDFGenerator();
-            //generatePdfReports.Generate(db);
+            var generatePdfReports = new PDFGenerator();
+            generatePdfReports.Generate(db);
+
             //Sending data to MySql
             //var sendDataToMySQL = new MySqlManager();
             //sendDataToMySQL.SendDataToMySql();
 
-            //XmlImporter.ImportXml();
-
+            //Exporting data from MySql to excel file
             var mySqlExcelExport = new MySqlManager();
             mySqlExcelExport.ExportDataFromMySql();
         }

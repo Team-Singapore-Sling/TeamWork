@@ -14,17 +14,17 @@
       <firstName>Ron</firstName>
       <lastName>Howard</lastName>
       <age>62</age>
-      <salary>3000000</salary>
+      <salary>3000000,0000</salary>
     </directors>
     <actors>
       <firstName>Ayelet</firstName>
       <lastName>Zurer</lastName>
       <age>47</age>
-      <salary>20000</salary>
+      <salary>20000,0000</salary>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -42,21 +42,21 @@
       <firstName>Justin</firstName>
       <lastName>Kurzel</lastName>
       <age>42</age>
-      <salary>5000000</salary>
+      <salary>5000000,0000</salary>
     </directors>
     <actors>
       <firstName>Marion</firstName>
       <lastName>Cotillard</lastName>
       <age>41</age>
-      <salary>100000</salary>
+      <salary>100000,0000</salary>
       <firstName>Michael</firstName>
       <lastName>Fassbender</lastName>
       <age>39</age>
-      <salary>150000</salary>
+      <salary>150000,0000</salary>
       <firstName>Michael</firstName>
       <lastName>Williams</lastName>
       <age>50</age>
-      <salary>35000</salary>
+      <salary>35000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -73,13 +73,13 @@
       <firstName>Paul</firstName>
       <lastName>Greengrass</lastName>
       <age>61</age>
-      <salary>300000</salary>
+      <salary>300000,0000</salary>
     </directors>
     <actors>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -98,17 +98,17 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Robert</firstName>
       <lastName>Zemeckis</lastName>
       <age>64</age>
-      <salary>3000000</salary>
+      <salary>3000000,0000</salary>
     </directors>
     <actors>
       <firstName>Lari</firstName>
       <lastName>White</lastName>
       <age>51</age>
-      <salary>14000</salary>
+      <salary>14000,0000</salary>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -126,17 +126,17 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Ron</firstName>
       <lastName>Howard</lastName>
       <age>62</age>
-      <salary>3000000</salary>
+      <salary>3000000,0000</salary>
     </directors>
     <actors>
       <firstName>Felicity</firstName>
       <lastName>Jones</lastName>
       <age>32</age>
-      <salary>180000</salary>
+      <salary>180000,0000</salary>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -152,13 +152,13 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Wernen</firstName>
       <lastName>Herzog</lastName>
       <age>76</age>
-      <salary>150000</salary>
+      <salary>150000,0000</salary>
     </directors>
     <actors>
       <firstName>Clive</firstName>
       <lastName>Oppenheimer</lastName>
       <age />
-      <salary>15000</salary>
+      <salary>15000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -174,13 +174,13 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Wernen</firstName>
       <lastName>Herzog</lastName>
       <age>76</age>
-      <salary>150000</salary>
+      <salary>150000,0000</salary>
     </directors>
     <actors>
       <firstName>Michael</firstName>
       <lastName>Shannon</lastName>
       <age>42</age>
-      <salary>26000</salary>
+      <salary>26000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -197,17 +197,17 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Ron</firstName>
       <lastName>Howard</lastName>
       <age>62</age>
-      <salary>3000000</salary>
+      <salary>3000000,0000</salary>
     </directors>
     <actors>
       <firstName>Audrey</firstName>
       <lastName>Tautou</lastName>
       <age>40</age>
-      <salary>430000</salary>
+      <salary>430000,0000</salary>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
   <movie>
@@ -224,17 +224,17 @@ A FedEx executive must transform himself physically and emotionally to survive a
       <firstName>Steven</firstName>
       <lastName>Spielberg</lastName>
       <age>69</age>
-      <salary>7500000</salary>
+      <salary>7500000,0000</salary>
     </directors>
     <actors>
       <firstName>Catherine</firstName>
       <lastName>Jones</lastName>
       <age>47</age>
-      <salary>100000</salary>
+      <salary>100000,0000</salary>
       <firstName>Tom</firstName>
       <lastName>Hanks</lastName>
       <age>60</age>
-      <salary>500000</salary>
+      <salary>500000,0000</salary>
     </actors>
   </movie>
 </movies>

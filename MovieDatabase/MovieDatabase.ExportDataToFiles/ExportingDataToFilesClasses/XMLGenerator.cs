@@ -85,7 +85,8 @@ namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
                 writer.WriteString(director.Age.ToString());
                 writer.WriteEndElement();
                 writer.WriteStartElement("salary");
-                writer.WriteString(director.Salary.ToString().Remove(director.Salary.ToString().IndexOf(","), 5));
+                writer.WriteString(director.Salary.ToString());
+                //.Remove(director.Salary.ToString().IndexOf(","), 5)
                 writer.WriteEndElement();
             }
 
@@ -104,7 +105,8 @@ namespace MovieDatabase.ExportDataToFiles.ExportingDataToFilesClasses
                 writer.WriteString(actor.Age.ToString());
                 writer.WriteEndElement();
                 writer.WriteStartElement("salary");
-                writer.WriteString(actor.Salary.ToString().Remove(actor.Salary.ToString().IndexOf(","), 5));
+                writer.WriteString(actor.Salary.ToString());
+                //.Remove(actor.Salary.ToString().IndexOf(","), 5)
                 writer.WriteEndElement();
             }
 

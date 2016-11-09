@@ -68,6 +68,10 @@
       <Project>{BA7D1923-5FA8-4DB5-86B1-AAC3E876E29C}</Project>
       <Name>ExportToMySql</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ImportToMongo\ImportToMongo.csproj">
+      <Project>{ba2ee952-6686-4ed1-b738-ffe1444224ef}</Project>
+      <Name>ImportToMongo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MovieDatabase.ExportDataToFiles\MovieDatabase.ExportDataToFiles.csproj">
       <Project>{bd677257-3ba5-4e7e-88a5-4d9530cddfbb}</Project>
       <Name>MovieDatabase.ExportDataToFiles</Name>

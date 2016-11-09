@@ -17,7 +17,7 @@ namespace ImportToMySql
     {
         public void SendDataToMySql()
         {
-            string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=davide";
+            string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=123456";
 
             MySqlConnection connection = new MySqlConnection(connectionString);
             MySqlCommand cmd;
@@ -58,7 +58,7 @@ namespace ImportToMySql
 
         public void ExportDataFromMySql()
         {
-            const string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=davide";
+            const string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=123456";
             //List<string> tableNames = new List<string>() { "movieratingreport" };
 
             MySqlConnection connection = new MySqlConnection(connectionString);

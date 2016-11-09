@@ -43,7 +43,7 @@ namespace MovieDatabase.ImportDataFromFiles
 
         private List<Movy> ReadExcelData(OleDbConnection conn, string sheetName)
         {
-            Console.WriteLine("Reading data...");
+            Console.WriteLine("Reading data from excel...");
             var excelDbCommand = new OleDbCommand(@"SELECT * FROM [" + sheetName + "]", conn);
             using (var oleDbDataAdapter = new OleDbDataAdapter(excelDbCommand))
             {

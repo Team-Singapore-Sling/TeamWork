@@ -4,6 +4,7 @@ using System.IO;
 using System.Xml.Serialization;
 using MovieDatabase.EntityData;
 using Genre = MovieDatabase.EntityData.Genre;
+using MovieDatabase.DatabaseClassInstance;
 
 namespace MovieDatabase.ImportDataFromFiles.ImportingData
 {
@@ -11,8 +12,10 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData
     {
         private const string XmlPath = @"..\..\..\ImportedFiles\MoviesImport.xml";
 
-        public static void ImportXml()
+        public static void ImportXml(IDatabase db)
         {
+            var database = db.GetInstance();
+
             using (var reader = new StreamReader(XmlPath))
             {
                 var serializer = new XmlSerializer(
@@ -21,10 +24,10 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData
 
                 var allMovies = (IEnumerable<Movie>)serializer.Deserialize(reader);
 
-                var db = new MoviesDatabaseOfTeamSingaporeSlingEntities();
+                //var db = new MoviesDatabaseOfTeamSingaporeSlingEntities();
 
-                db.Configuration.AutoDetectChangesEnabled = false;
-                db.Configuration.ValidateOnSaveEnabled = false;
+                database.Configuration.AutoDetectChangesEnabled = false;
+                database.Configuration.ValidateOnSaveEnabled = false;
 
                 foreach (var movie in allMovies)
                 {
@@ -78,12 +81,12 @@ namespace MovieDatabase.ImportDataFromFiles.ImportingData
                         Employees = allEmployees
                     };
 
-                    db.Movies.Add(movieToBase);
-                    db.SaveChanges();
+                    database.Movies.Add(movieToBase);
+                    database.SaveChanges();
                 }
 
-                db.Configuration.AutoDetectChangesEnabled = true;
-                db.Configuration.ValidateOnSaveEnabled = true;
+                database.Configuration.AutoDetectChangesEnabled = true;
+                database.Configuration.ValidateOnSaveEnabled = true;
             }
         }
     }
