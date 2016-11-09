@@ -67,6 +67,9 @@ namespace MovieDatabase.Start
             //sendDataToMySQL.SendDataToMySql();
 
             //XmlImporter.ImportXml();
+
+            var mySqlExcelExport = new MySqlManager();
+            mySqlExcelExport.ExportDataFromMySql();
         }
     }
 }

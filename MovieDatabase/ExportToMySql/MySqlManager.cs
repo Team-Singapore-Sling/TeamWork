@@ -9,6 +9,7 @@ using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using System.Collections;
 using ExportToMySql;
+using System.Data;
 
 namespace ImportToMySql
 {
@@ -53,6 +54,23 @@ namespace ImportToMySql
 
             }
             return builder.ToString();
+        }
+
+        public void ExportDataFromMySql()
+        {
+            const string connectionString = "server=localhost;database=moviedatabase;uid=root;pwd=davide";
+            //List<string> tableNames = new List<string>() { "movieratingreport" };
+
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            MySqlCommand com = new MySqlCommand("SELECT * FROM movieratingreport", connection);
+            //Console.WriteLine(com);
+            MySqlDataAdapter data = new MySqlDataAdapter(com);
+            DataTable dat = new DataTable("movieratingreport");
+            data.Fill(dat);
+
+            dat.WriteXml(@"..\..\..\ExportedFiles\EXCEL\exportedData.xls");
         }
 
         private static IEnumerable<string> GetReportsFileNamesFromDirectory(string directoryPath)
