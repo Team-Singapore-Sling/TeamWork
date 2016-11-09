@@ -18,6 +18,13 @@
 ### Images from the application:
 ![](/images/Database.png)
 
+### To start the project:
+- You should have:
+  - SQL-Server
+  - MySql-Server
+  - MongoDb-Server
+  
+- Build-rebuild the solution, to restore all packages and start the project.
 
 ## GitHub repository:
 
